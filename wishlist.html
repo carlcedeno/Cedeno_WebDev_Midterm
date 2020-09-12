@@ -1,21 +1,83 @@
-!DOCTYPE HTML>
-<html>
-    <head>
-        <title>Challenge: My Wishlist</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <br></br>
-    <pr><strong> From: Carlyn Cedeño </strong> </pr>
-    <br></br>
-     <li> Reincarnated as a dragon </li>
-<br> </br>
-        <li> eat a whole cake by myself</li>
-    <li> <pr> Own the same designed shirts in: </li>
-            <br> black color,Navy Blue color </br>
-        Navy Blue color
-   <li> Genuine Happiness </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Fill Up the details Below</title>
+</head>
+<body>
+  <!--
+  <table border="1">
+    <tr>
+      <td><em>Row1</em> Col1</td>
+      <td>Row1 Col2</td>
+    </tr>
+    <tr>
+      <td>Row2 Col1</td>
+      <td>Row2 Col2</td>
+    </tr>    
+  </table>
+  -->
+  
+  <legend> <strong> Registration Form </strong></legend>
+<form>
+<form >
+  <label for="firstname">First name:</label><br>
+  <input type="text" id="firstname" name="firstname" value=""><br>
+  <label for="lastname">Last name:</label><br>
+  <input type="text" id="lastname" name="lastname" value=""><br><br>
+  
+  <input type="reset">
+</form>
+<form>
+       <fieldset>
+          <legend>Educational Background</legend>
+          <p>
+             <label>Choose</label>
+             <select id = "List">
+               <option value = "1">High School Level</option>
+               <option value = "2">College Level</option>
+               <option value = "3">High School Graduate</option>
+               <option value = "4">College Graduate</option>
+             </select>
+          </p>
+       </fieldset>
+    </form>
+<form>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+ 
+<input type="password" placeholder="Enter Password" name="psw" required>
+  <br></br>
 
-        
-    </body>
+  
+  <input type="reset">
+<input type="submit">
+</form>
+<form>
+  <label for="Gender">Gender:</label><br>
+  <input type="radio" id="male" name="gender" value="male">
+
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+ 
+</form>
+
+<form>
+<label for="Status">Status:</label><br>
+  <input type="checkbox" id="sad" name="sad" value="sad">
+  <label for="single"> Single</label><br>
+  <input type="checkbox" id="broken" name="broken" value="broken">
+  <label for="vehicle2"> Divorced</label><br>
+  <input type="checkbox" id="happy" name="happy" value="happy">
+  <label for="vehicle3"> Married</label>
+  <br></br>
+<input type="button" onclick="alert('YOU ARE REGISTERED!')" value="Done">
+  <input type="reset">
+
+</form>
+      
+  </form>
+</body>
 </html>
