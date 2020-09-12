@@ -18,33 +18,66 @@
   </table>
   -->
   
-      <legend>Registration Form</legend>
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="John"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Doe"><br><br>
-  <input type="submit" value="Submit">
+  <legend> <strong> Registration Form </strong></legend>
+<form>
+<form >
+  <label for="firstname">First name:</label><br>
+  <input type="text" id="firstname" name="firstname" value=""><br>
+  <label for="lastname">Last name:</label><br>
+  <input type="text" id="lastname" name="lastname" value=""><br><br>
+  
   <input type="reset">
 </form>
-
 <form>
+       <fieldset>
+          <legend>Educational Background</legend>
+          <p>
+             <label>Choose</label>
+             <select id = "List">
+               <option value = "1">High School Level</option>
+               <option value = "2">College Level</option>
+               <option value = "3">High School Graduate</option>
+               <option value = "4">College Graduate</option>
+             </select>
+          </p>
+       </fieldset>
+    </form>
+<form>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username"><br>
+  <label for="pwd">Password:</label><br>
+ 
+<input type="password" placeholder="Enter Password" name="psw" required>
+  <br></br>
+
+  
+  <input type="reset">
+<input type="submit">
+</form>
+<form>
+  <label for="Gender">Gender:</label><br>
   <input type="radio" id="male" name="gender" value="male">
+
   <label for="male">Male</label><br>
   <input type="radio" id="female" name="gender" value="female">
   <label for="female">Female</label><br>
-  <input type="radio" id="other" name="gender" value="other">
-  <label for="other">Other</label>
+ 
 </form>
+
 <form>
-  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-  <label for="vehicle1"> I have a bike</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-  <label for="vehicle2"> I have a car</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-  <label for="vehicle3"> I have a boat</label>
+<label for="Status">Status:</label><br>
+  <input type="checkbox" id="sad" name="sad" value="sad">
+  <label for="single"> Single</label><br>
+  <input type="checkbox" id="broken" name="broken" value="broken">
+  <label for="vehicle2"> Divorced</label><br>
+  <input type="checkbox" id="happy" name="happy" value="happy">
+  <label for="vehicle3"> Married</label>
+  <br></br>
+<input type="button" onclick="alert('YOU ARE REGISTERED!')" value="Done">
+  <input type="reset">
+
 </form>
       
-  
+  </form>
 </body>
 </html>
