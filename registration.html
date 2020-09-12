@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=">
-  <title></title>
+ 
+  <title>Fill Up the details Below</title>
 </head>
 <body>
   <!--
@@ -19,79 +18,33 @@
   </table>
   -->
   
-      <legend>Login Form</legend>
-      <table>
-        <tr>
-          <td>Name</td>
-          <td><input type="text" 
-                     id="txtName" 
-                     name="txtName"
-                     placeholder="Enter username here"
-                     />
-          </td>
-        </tr>
-        <tr>
-          <td>Password</td>
-          <td><input type="password" id="txtPassword" name="txtPassword" /></td>
-        </tr>
-        
-        <tr>
-          <td>Login as</td>
-          <td>
-            <input type="radio" 
-                   id="loginType" 
-                   name="loginType"
-                   value = "Guest"
-                   selected="selected"/>
-            <label for="loginType">Guest</label>
-            
-            <input type="radio"
-                   id="loginType"
-                   name="loginType"
-                   value="Admin"/>
-            <label for="loginType">Admin</label>            
-          </td>
-        </tr>
-        
-        <tr>
-          <td colspan="2">
-            Login as
-            <select name="drpLoginType" id="drpLoginType">
-              <option value="Guest">Guest</option>
-              <option value="Admin">Admin</option>
-              <option value="SuperUser">Super &nbsp;&nbsp;&nbsp;&nbsp; User</option>
-              <option value="Business Owner">Business Owner</option>
-            </select>
-            
-          </td>
-        </tr>
-        
-        <tr>
-          <td colspan="2">
-            <input type="checkbox" 
-                   id="cbxPolicy1"
-                   name="cbxPolicy1"
-                   value="I accept lorem ipsum"/>
-            <label for="cbxPolicy1">I accept lorem ipsum</label>
-          </td>
-        </tr>
-        
-        <tr>
-          <td colspan="2">
-            <input type="checkbox" 
-                   id="cbxPolicy2"
-                   name="cbxPolicy2"
-                   value="I accept lorem ipsum 2"/>
-            <label for="cbxPolicy2">I accept lorem ipsum 2</label>
-          </td>
-        </tr>        
-        
-        <tr>
-          <td colspan="2" align="right">
-            <button id="btnLogin" onClick="alert(document.getElementById('txtName').value)">Login</button>
-          </td>
-        </tr>
-      </table>
+      <legend>Registration Form</legend>
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset">
+</form>
+
+<form>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label>
+</form>
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label>
+</form>
+      
   
 </body>
 </html>
