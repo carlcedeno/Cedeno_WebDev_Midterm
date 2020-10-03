@@ -1,11 +1,17 @@
+html {
+    background-color : #F0F0F0; /* this is a light grey */
+}
+
 body {
-background-image: url(https://i.pinimg.com/originals/bf/34/01/bf3401c640b9a3fe4f1a8662cd002fea.jpg);
+background-image: url(https://vignette.wikia.nocookie.net/pewdiepie/images/3/3e/PewDiePies-Recreation-World-map-for-Minecraft-screenshot-5.jpg/revision/latest?cb=20200924162523);
 background-repeat: no-repeat;
-  background-size: 2500px 700px;
+  background-size: 4000px 900px;
   margin-top: 60px;
 }
 h1{
-  font-size: 5rem;}
+  text-align: center;
+  font-size: 50px;
+  font-family: "Big Caslon"}
 
 .center {
 
