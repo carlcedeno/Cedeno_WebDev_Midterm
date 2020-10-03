@@ -1,4 +1,9 @@
 body {
-background-color : antiquewhite;
+background-image: url(https://i.pinimg.com/originals/bf/34/01/bf3401c640b9a3fe4f1a8662cd002fea.jpg);
+background-repeat: no-repeat;
+  background-size: 2500px 700px;
   margin-top: 60px;
 }
+h1{
+  font-size: 5rem;}
+
