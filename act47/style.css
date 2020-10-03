@@ -1,16 +1,18 @@
 html {
-    background-color : #F0F0F0; /* this is a light grey */
-}
+ margin-top: 50px;
+  background-color: #100e17 !important;
+  margin-bottom: 100px;
+  font-family: "Poppins", sans-serif !important;
+  width: 100%;
+    background-color :black; 
 
 body {
-background-image: url(https://vignette.wikia.nocookie.net/pewdiepie/images/3/3e/PewDiePies-Recreation-World-map-for-Minecraft-screenshot-5.jpg/revision/latest?cb=20200924162523);
-background-repeat: no-repeat;
-  background-size: 4000px 900px;
+
   margin-top: 60px;
 }
 h1{
   text-align: center;
-  font-size: 50px;
+ font-size: 3em;
   font-family: "Big Caslon"}
 
 .center {
@@ -24,3 +26,6 @@ background-color: red;
   padding: 10px;
 
 }
+ h2 {
+    font-size: 5vw;
+  }
